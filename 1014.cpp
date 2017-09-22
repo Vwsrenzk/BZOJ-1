@@ -25,7 +25,6 @@ char line[Max];
 class SplayType
 {
 	private :
-
 		void R (SD *&n)
 		{
 			SD *F = n->f, *G = F->f; int p = n == F->c[1];
