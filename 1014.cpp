@@ -1,11 +1,3 @@
-/*
-	BZOJ 1014: [JSOI2008]火星人prefix
-
-	Splay维护Hash值
-	先建树
-	重点是对于插入操作，
-	找到那个位置后，像链表一样更改顺序，后将这点向上一条链更新一下hash值就好
-*/
 #include <cstdio>
 #include <iostream>
 typedef long long LL;
